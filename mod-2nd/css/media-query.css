@@ -1,0 +1,35 @@
+@media only screen and ( max-width:991px) and (min-width:768px)
+{   
+.first .row .col1 ,.first .row .col2 
+{
+float:left;
+width:47%;   
+margin-left: 1.5%;
+margin-right: 1.5%; 
+border:3px solid #362e2e;
+box-sizing: border-box;
+background-color: #989595;
+}
+ .first .row .col3
+{
+    width:97%;
+    margin-top: 20px;
+    margin-right:1.5%;
+    margin-left: 1.5%;
+}
+       
+}
+
+@media only screen and ( max-width:767px)
+{
+    .first .row .col1 ,.first .row .col2 ,.first .row .col3
+    {
+        width:97%;
+    margin-top: 20px;
+    margin-right:1.5%;
+    margin-left: 1.5%;
+        
+    }
+    
+}
+
